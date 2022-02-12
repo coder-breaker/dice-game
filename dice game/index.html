@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="display-el">Let's Play</h2>
+        <div class="player">
+            <p id="player1">player1</p>
+            <img id="dice-1" src="dice6.png" alt="diceimg">
+        </div>
+
+        
+        <div class="player">
+            <p id="player2">player2</p>
+            <img id="dice-2" src="dice6.png" alt="diceimg">
+        </div>
+        
+        <button id="roll-dice" >Roll the Dice</button>
+        <button id="edit-names" onclick="changeNames()" >Edit the Names</button>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

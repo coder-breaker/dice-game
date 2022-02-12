@@ -1,0 +1,41 @@
+
+body{
+    background-color:  #042f4b ;
+}
+
+.container{
+    width: 70%;
+    margin: auto;   
+    text-align: center;
+    color: hsl(160, 55%, 55%) ;
+    font-size: 2rem;
+}
+h2{
+    font-size: 5.5rem;
+    font-family: "Lobster" , sans-serif ;
+    height: 2.5rem;
+    margin-left: 60px;
+    width: 90%;
+    
+}
+.player{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: aqua;
+    font-family: "Indie Flower", cursive;
+    font-size: 1em;
+    font-weight: 400;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #232931 ;
+    
+}
+ 
